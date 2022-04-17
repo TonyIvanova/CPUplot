@@ -19,18 +19,19 @@ npm install
 cd ../server
 npm install 
 ```
-2. create and configure .env file 
+2. Create and configure .env file 
 ```js
 ACCESSKEYID={Access Key ID}
 SECRETACCESSKEY={Secret Access Key}
 REGION={AWS region}
 ```
-3. spin up the server from server repository
+3. Spin up the server from server repository
 
 ``` js
-node start 
+npm start 
 ```
-4. run client side from client repository 
+4. Run client side from client repository 
 ``` 
 npm start 
 ```
+
