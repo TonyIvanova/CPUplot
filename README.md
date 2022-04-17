@@ -1,7 +1,7 @@
 # CPUplot
 ## About The App
 This app displays plot for average CPU usage of AWS instance. 
-
+<img src="preview.JPG" alt="preview" width="600"/>
 
 ### Built With
 * [Node.js](https://nodejs.org/)
@@ -12,14 +12,14 @@ This app displays plot for average CPU usage of AWS instance.
 
 ## Getting Started
 
-1. Install server and client dependencies;
+1. Install server and client dependencies
 ```sh 
 cd client
 npm install
 cd ../server
 npm install 
 ```
-2. Create and configure .env file 
+2. Create and configure .env file in server repository
 ```js
 ACCESSKEYID={Access Key ID}
 SECRETACCESSKEY={Secret Access Key}
